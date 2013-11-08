@@ -39,7 +39,7 @@ void print(int *tab, int start, int end) {
 int main() {
   int tab[10] = {10,8,9,6,4,5,1,3,2,7};
 
-  quicksort(&tab[0], 0, 8);
+  quicksort(&tab[0], 0, 9);
   print(&tab[0], 0, 9);
 
   return(0);
